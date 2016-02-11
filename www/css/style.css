@@ -1,6 +1,7 @@
 .jumbotron {
   margin: 20px;
   padding: 20px;
+  color: black;
 }
 
 body {
@@ -23,3 +24,13 @@ body {
 	padding-left: 15px;
 	padding-right: 15px;
 }
+
+.container-fluid {
+	background-image: url("../img/gvNav.jpg");
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+
