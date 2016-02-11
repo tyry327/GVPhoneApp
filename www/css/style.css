@@ -1,0 +1,25 @@
+.jumbotron {
+  margin: 20px;
+  padding: 20px;
+}
+
+body {
+	background-color: #cccccc;
+}
+
+#sellBookForm, #lostAndFoundForm {
+	margin: 20px;
+}
+
+.upload_Image {
+	margin: 15px;
+}
+
+.form-group {
+	margin: 15px;
+}
+
+.inputs {
+	padding-left: 15px;
+	padding-right: 15px;
+}
