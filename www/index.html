@@ -12,6 +12,10 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <!-- Firebase -->
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+  
   </head>
   <body>
 
@@ -32,7 +36,6 @@
           <ul class="nav navbar-nav">
             <li id="links"><a href="../www/sell_books.html"><strong><font color="white">Books for Sale</font></strong></a></li>
             <li id="links"><a href="../www/lost_and_found.html"><strong><font color="white">Lost and Found</font></strong></a></li>
-            <li id="links"><a href="https://myview.grandview.edu/Pages/Home.aspx" target="_blank"><strong><font color="white">myView</strong</font></a></li>
             <li id="links"><a href="../www/login.html"><strong><font color="white">Log Out</font></strong></a></li>
           </ul>
         </div>
@@ -41,7 +44,7 @@
 
   <!-- JUMBOTRON -->
     <div class="jumbotron">
-      <h1><font face>Skol Vikes</font></h1>
+      <h1>Skol Vikes</font></h1>
       <p>App description</p>
         <a href="#sellBookForm" class="btn btn-danger" id="sellBooks">Sell Books</a>
         <a href="#lostAndFoundForm" class="btn btn-danger" id="lostAndFound">Lost and Found</a>
@@ -50,23 +53,11 @@
   <!-- Sell Book Form -->
     <div class="panel panel-danger" id="sellBookForm">
       <div class="panel-heading">
-        <h3 class="panel-title">Sell Your Book &nbsp<a href="#top"><small>Back to top</small></a></h3>
+        <h3 class="panel-title">Sell Your Book &nbsp;<a href="#top"><small>Back to top</small></a></h3>
       </div>
       <div class="panel-body">
         <form class="form-horizontal">
           <fieldset>
-            <div class="form-group">
-              <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-              <div class="col-lg-10">
-                <input type="text" class="form-control" id="inputEmail" placeholder="Email">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputPassword" class="col-lg-2 control-label">Password</label>
-              <div class="col-lg-10">
-                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-                </div>
-              </div>
             <div class="form-group">
               <label class="col-lg-2 control-label">Book Title</label>
               <div class="col-lg-10">
@@ -128,18 +119,11 @@
   <!-- Lost and Found Form -->
     <div class="panel panel-danger" id="lostAndFoundForm">
       <div class="panel-heading">
-        <h3 class="panel-title">Lost & Found Form &nbsp<a href="#top"><small>Back to top</small></a></h3>
+        <h3 class="panel-title">Lost & Found Form &nbsp;<a href="#top"><small>Back to top</small></a></h3>
       </div>
       <div class="panel-body">
         <form class="form-horizontal">
           <fieldset>
-            <div class="form-group">
-              <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-              <div class="col-lg-10">
-                <input type="text" class="form-control" id="inputEmail" placeholder="Email">
-              </div>
-            </div>
-            
         <!-- Details Area -->
             <div class="form-group">
               <div class="inputs">
